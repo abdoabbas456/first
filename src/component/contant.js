@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-export default function Contant() {
+export default function Contant () {
   return (
     <div className="contant">
       <h1>Contant</h1>
