@@ -5,6 +5,7 @@ import About from "./component/about";
 import Work from "./component/work";
 import Skills from "./component/skills";
 import Contant from "./component/contant";
+import Footer from "./component/footer";
 
 
 export default function App() {
@@ -15,7 +16,7 @@ export default function App() {
       <Work />
       <Skills />
       <Contant/>
-     
+     <Footer/>
     </div>
   );
 }

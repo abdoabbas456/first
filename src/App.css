@@ -258,4 +258,121 @@ h4 {
 .skillscard h3 {
   border-bottom: 3px solid #d9c148;
 }
+/*contnat*/
+.contant {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 10px;
+}
+.contant h1 {
+  font-family: "Vidaloka", serif;
+  margin: 10px;
+  grid-column: 1/9;
+  grid-row: 1;
+  text-align: center;
+  justify-self: start;
+  align-self: center;
+  border-bottom: 3px solid #d9c148;
+  font-weight: normal;
+  color: white;
+}
+.contant-form {
+  grid-column: 1/9;
+  grid-row: 2;
+  display: grid;
 
+  width: 100%;
+  background: #00d4ff;
+  min-height: 250px;
+  align-self: center;
+  justify-self: center;
+  min-height: 500px;
+}
+.form1 {
+  grid-row: 1;
+}
+.form2 {
+  grid-row: 2;
+}
+.form3 {
+  grid-row: 3;
+}
+.form4 {
+  grid-row: 4;
+}
+.form5 {
+  grid-row: 5;
+}
+.form6 {
+  grid-row: 6;
+}
+.form7 {
+  grid-row: 7;
+}
+.form1,
+.form2,
+.form3,
+.form4,
+.form5,
+.form6,
+.form7 {
+  grid-column: 1/6;
+  align-self: center;
+  justify-self: center;
+}
+.form1,
+.form3,
+.form5 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.form2,
+.form4 {
+  width: 70%;
+  height: 50%;
+  font-size: 1.5em;
+}
+.form6 {
+  width: 80%;
+  height: 100%;
+}
+.form7 {
+  height: 50%;
+  width: 40%;
+  border-radius: 5px;
+  background: #d9c148;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* Footer Section */
+
+.footer {
+  color: white;
+  background: rgba(19, 28, 39, 1);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 10px;
+}
+.footer h1 {
+  font-size: 1em;
+ grid-column: 1/8;
+ margin: 10px;
+}
+.iconsocial  {
+  font-size: 2em;
+  grid-column: 1/9;
+  grid-row: 2;
+  margin: 10px;
+display: grid;
+  
+ 
+}
+.icon1{
+  grid-column: 2/3;
+}
+.icon2{
+  grid-column: 5/6;
+}
+.icon3{
+  grid-column: 8/9;
+}
