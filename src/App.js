@@ -12,9 +12,11 @@ export default function App() {
   return (
     <div className="App">
       <Header />
+
       <About />
-      <Work />
       <Skills />
+
+      <Work />
       <Contant/>
      <Footer/>
     </div>

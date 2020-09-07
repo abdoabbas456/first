@@ -13,7 +13,13 @@ export default function Skills() {
         <div className="skillscard1" >
           <img  src={html} alt="html"/>
           <h3>Html5</h3>
+         
         </div>
+        <div className="lines lines1"></div>
+        <div className="lines lines2"></div>
+        <div className="lines lines3"></div>
+      
+      
         <div className="skillscard2">
         <img  src={css} alt="css"/>
           <h3>Css3</h3>
