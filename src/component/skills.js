@@ -10,15 +10,18 @@ import { TimelineLite, TweenMax, Power3 } from "gsap";
 export default function Skills() {
   let skillsblack = useRef(null);
   let tl = new TimelineLite();
-  
+  let black = useRef(null);
   useEffect(() => {
-
-  TweenMax.to(skillsblack, 0, { css: { visibility: "visible" } });
+    TweenMax.to(skillsblack, 0, { css: { visibility: "visible" } });
+    tl.to(black, 1, { y: 250, ease: Power3.easeOut ,delay: 0.2});
+    console.log(black)
   });
   return (
-    <div className="skills" >
+    <div className="skills" ref={(el) => (skillsblack = el)}>
       <h1> Skills</h1>
-      <div className="skillscard" ref={(el) => (skillsblack = el)}>
+      <div className="black" ref={(el) => (black = el)}></div>
+
+      <div className="skillscard" >
         <div className="skillscard1">
           <img src={html} alt="html" />
           <h3>Html5</h3>
@@ -44,7 +47,7 @@ export default function Skills() {
           <h3>django</h3>
         </div>
       </div>
-      <div className="black"></div>
+      
     </div>
   );
 }

@@ -32,6 +32,7 @@ html {
 }
 body {
   background: #17181a;
+  overflow: hidden;
 }
 /*headerstyle*/
 .header {
@@ -210,10 +211,12 @@ body {
 }
 /*skills*/
 .skills {
+  visibility: hidden;
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   margin: 10px;
   position: relative;
+  overflow: hidden;
 }
 .skills h1 {
   font-family: "Vidaloka", serif;
@@ -228,8 +231,6 @@ body {
   color: white;
 }
 .skillscard {
-  visibility: hidden;
-
   grid-column: 1/9;
   grid-row: 2;
   display: grid;
@@ -446,7 +447,8 @@ body {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   margin: 10px;
-
+  overflow: hidden;
+  position: relative;
   color: white;
   background: rgb(34, 34, 34);
   margin: 10px;
